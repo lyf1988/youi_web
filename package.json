@@ -42,6 +42,7 @@
         "gulp-autoprefixer": "6.1.0",
         "gulp-clean-css": "4.2.0",
         "gulp-header": "2.0.7",
+        "gulp-path": "^4.0.0",
         "gulp-plumber": "^1.2.1",
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.2",

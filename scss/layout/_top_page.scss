@@ -1,0 +1,57 @@
+.top-page {
+    .method-section {   
+        margin-top: 5vw;
+        color: #004484; 
+        text-align: center;
+        font-size: 3.5vw;           
+        font-weight: 500;
+
+        .container-with-border {                        
+            padding: 1vw 3vw; 
+            border-radius: 1.5vw;         
+            border: 0.2vw #E40000 solid; 
+                  
+        }   
+        
+        .divider-area-line {
+            color: #E40000;
+            min-height: 4vw;
+            height: 4vw;
+            background-image: url("/img/vertical_line_red.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        
+        .divider-area-arrow {
+            color: #E40000;
+            min-height: 8vw;
+            height: 8vw;
+            background-image: url("/img/down_arrow_red.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .container-without-border {            
+            padding: 5vw 0;            
+        }
+
+        .method-bottom-left {
+            background-image: url("/img/method_left.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        
+        .method-bottom-right {
+            background-image: url("/img/method_right.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+
+    
+}
