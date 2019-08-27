@@ -1,4 +1,4 @@
 node_modules
 .vs
-js
-css
+js/**/*.js
+css/**/*.css

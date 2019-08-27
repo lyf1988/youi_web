@@ -1,16 +1,20 @@
 // Styling for page sections
 .page-section {
-  padding: 6rem 0;
+  padding: 3vw 0;
   .page-section-heading {
-    font-size: 2.25rem;
-    line-height: 2rem;
+    font-size: 3.5vw;    
+    font-weight: 500;
   }
+
   @include media-breakpoint-up(lg) {
     .page-section-heading {
-      font-size: 3rem;
-      line-height: 2.5rem;
+      font-size: 3.5vw;      
     }
   }
+}
+
+.page-section.section-revert {
+  background-color: #EBE8E5;
 }
 
 
@@ -20,3 +24,14 @@
   justify-content: center;
 } 
 
+.align-left-middle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.align-right-middle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

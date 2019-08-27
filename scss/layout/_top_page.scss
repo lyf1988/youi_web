@@ -1,7 +1,8 @@
 .top-page {
     .method-section {   
         margin-top: 5vw;
-        color: #004484; 
+        padding-bottom: 0;
+        color: $blue; 
         text-align: center;
         font-size: 3.5vw;           
         font-weight: 500;
@@ -9,12 +10,11 @@
         .container-with-border {                        
             padding: 1vw 3vw; 
             border-radius: 1.5vw;         
-            border: 0.2vw #E40000 solid; 
-                  
+            border: 0.2vw $red solid;                   
         }   
         
         .divider-area-line {
-            color: #E40000;
+            color: $red;
             min-height: 4vw;
             height: 4vw;
             background-image: url("/img/vertical_line_red.png");
@@ -24,7 +24,7 @@
         }
         
         .divider-area-arrow {
-            color: #E40000;
+            color: $red;
             min-height: 8vw;
             height: 8vw;
             background-image: url("/img/down_arrow_red.png");
@@ -53,5 +53,59 @@
         }
     }
 
+    .toppoints {
+        color: $blue;
+        font-size: 2vw;
+
+        .img-area {
+            margin-top: -2vw;
+            margin-bottom: -2vw;
+            background-image: url("/img/yamadatoppoints.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+        }
+
+        .list-group {
+            .list-group-item {
+                display: flex;
+                align-items: center;                
+                background: transparent;
+                border: none;
+
+                div {
+                    display: inline-block;
+                    margin-right: 0.5em;                    
+                }
+
+                .icon-area {
+                    width: 2vw;
+                    height: 2vw;
+                    border: 0.2vw $red solid;                   
+                    border-radius: 100%;
+                }
+            }
+        }
+    }
     
+    
+    .basic-flow {
+        .page-section-heading {
+            color: $blue;
+        }
+
+        .circle-area {
+            font-size: 2.8vw; 
+            font-weight: 500;
+            color: $blue;
+
+            .circle {
+                width: 20vw; 
+                height: 20vw; 
+                border: 0.3vw $red solid; 
+                border-radius: 100%;
+            }
+        }
+    }
+
 }
