@@ -4,6 +4,7 @@
   .page-section-heading {
     font-size: 3.5vw;    
     font-weight: 500;
+    color: $blue;
   }
 
   @include media-breakpoint-up(lg) {
@@ -35,3 +36,16 @@
   align-items: center;
   justify-content: flex-end;
 }
+
+.align-right-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.align-center-top {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
