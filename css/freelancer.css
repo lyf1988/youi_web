@@ -10973,7 +10973,7 @@ form .row:first-child .floating-label-form-group {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  background-image: url("/img/logo_title.svg");
+  background-image: url("../img/logo_title.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -11015,7 +11015,7 @@ form .row:first-child .floating-label-form-group {
   color: #E40000;
   min-height: 4vw;
   height: 4vw;
-  background-image: url("/img/vertical_line_red.png");
+  background-image: url("../img/vertical_line_red.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -11025,7 +11025,7 @@ form .row:first-child .floating-label-form-group {
   color: #E40000;
   min-height: 8vw;
   height: 8vw;
-  background-image: url("/img/down_arrow_red.png");
+  background-image: url("../img/down_arrow_red.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -11036,14 +11036,14 @@ form .row:first-child .floating-label-form-group {
 }
 
 .top-page .method-section .method-bottom-left {
-  background-image: url("/img/method_left.png");
+  background-image: url("../img/method_left.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
 }
 
 .top-page .method-section .method-bottom-right {
-  background-image: url("/img/method_right.png");
+  background-image: url("../img/method_right.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
@@ -11057,7 +11057,7 @@ form .row:first-child .floating-label-form-group {
 .top-page .toppoints .img-area {
   margin-top: -2vw;
   margin-bottom: -2vw;
-  background-image: url("/img/yamadatoppoints.png");
+  background-image: url("../img/yamadatoppoints.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -11130,7 +11130,7 @@ form .row:first-child .floating-label-form-group {
 
 .top-page .special-point-section .img-area {
   min-height: 20vw;
-  background-image: url("/img/illust_01.png");
+  background-image: url("../img/illust_01.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -11174,7 +11174,7 @@ form .row:first-child .floating-label-form-group {
 
 .top-page .strength-section .img-area {
   min-height: 20vw;
-  background-image: url("/img/illust_02.png");
+  background-image: url("../img/illust_02.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -11211,7 +11211,7 @@ form .row:first-child .floating-label-form-group {
 
 .top-page .introdution-section .top-banner {
   min-height: 35vw;
-  background-image: url("/img/intro_top.jpg");
+  background-image: url("../img/intro_top.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -11220,7 +11220,7 @@ form .row:first-child .floating-label-form-group {
 .top-page .introdution-section .logo-area {
   margin-top: 2vw;
   min-height: 10vw;
-  background-image: url("/img/logo_mark_only.svg");
+  background-image: url("../img/logo_mark_only.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11257,14 +11257,14 @@ form .row:first-child .floating-label-form-group {
 .top-page .yamada-section .img-area {
   margin-top: -2vw;
   margin-bottom: -3vw;
-  background-image: url("/img/yamada_guts.png");
+  background-image: url("../img/yamada_guts.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
 }
 
 .top-page .yamada-section .dialog-area {
-  background-image: url("/img/dialog.png");
+  background-image: url("../img/dialog.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
@@ -11298,7 +11298,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .top-page .inquiry-section {
-  background-image: url("/img/flags.png");
+  background-image: url("../img/flags.png");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: contain;
@@ -11306,7 +11306,7 @@ form .row:first-child .floating-label-form-group {
 
 .top-page .inquiry-section .img-area {
   margin-bottom: -3vw;
-  background-image: url("/img/yamada_illust.png");
+  background-image: url("../img/yamada_illust.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;

@@ -12,7 +12,7 @@
             .logo-area {
                 height: 20vw;
                 flex-grow: 1;
-                background-image: url("/img/logo_title.svg");
+                background-image: url("../img/logo_title.svg");
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: contain;
@@ -53,7 +53,7 @@
             color: $red;
             min-height: 4vw;
             height: 4vw;
-            background-image: url("/img/vertical_line_red.png");
+            background-image: url("../img/vertical_line_red.png");
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -63,7 +63,7 @@
             color: $red;
             min-height: 8vw;
             height: 8vw;
-            background-image: url("/img/down_arrow_red.png");
+            background-image: url("../img/down_arrow_red.png");
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -74,7 +74,7 @@
         }
 
         .method-bottom-left {
-            background-image: url("/img/method_left.png");
+            background-image: url("../img/method_left.png");
             background-repeat: no-repeat;
             background-position: right;
             background-size: contain;
@@ -82,7 +82,7 @@
 
         
         .method-bottom-right {
-            background-image: url("/img/method_right.png");
+            background-image: url("../img/method_right.png");
             background-repeat: no-repeat;
             background-position: left;
             background-size: contain;
@@ -96,7 +96,7 @@
         .img-area {
             margin-top: -2vw;
             margin-bottom: -2vw;
-            background-image: url("/img/yamadatoppoints.png");
+            background-image: url("../img/yamadatoppoints.png");
             background-repeat: no-repeat;
             background-position: right;
             background-size: contain;
@@ -173,7 +173,7 @@
 
         .img-area {
             min-height: 20vw;
-            background-image: url("/img/illust_01.png");
+            background-image: url("../img/illust_01.png");
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -218,7 +218,7 @@
 
         .img-area {
             min-height: 20vw;
-            background-image: url("/img/illust_02.png");
+            background-image: url("../img/illust_02.png");
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -256,7 +256,7 @@
 
         .top-banner {
             min-height: 35vw;
-            background-image: url("/img/intro_top.jpg");
+            background-image: url("../img/intro_top.jpg");
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -265,7 +265,7 @@
         .logo-area {
             margin-top: 2vw;
             min-height: 10vw;
-            background-image: url("/img/logo_mark_only.svg");
+            background-image: url("../img/logo_mark_only.svg");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -303,14 +303,14 @@
         .img-area {
             margin-top: -2vw;
             margin-bottom: -3vw;
-            background-image: url("/img/yamada_guts.png");
+            background-image: url("../img/yamada_guts.png");
             background-repeat: no-repeat;
             background-position: right;
             background-size: contain;
         }
 
         .dialog-area {
-            background-image: url("/img/dialog.png");
+            background-image: url("../img/dialog.png");
             background-repeat: no-repeat;
             background-position: left;
             background-size: contain;            
@@ -350,14 +350,14 @@
     }
     
     .inquiry-section {
-        background-image: url("/img/flags.png");
+        background-image: url("../img/flags.png");
         background-repeat: no-repeat;
         background-position: right top;
         background-size: contain;
 
         .img-area {
             margin-bottom: -3vw;
-            background-image: url("/img/yamada_illust.png");
+            background-image: url("../img/yamada_illust.png");
             background-repeat: no-repeat;
             background-position: right;
             background-size: contain;
