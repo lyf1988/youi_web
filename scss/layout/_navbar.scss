@@ -4,25 +4,28 @@
   padding-bottom: 1rem;
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
-  .navbar-brand {
-    color: $white;
-  }
+  
   .navbar-nav {
     margin-top: 1rem;
     li.nav-item {
       a.nav-link {
-        color: $white;
+        color: $blue;
         &:hover {
-          color: $primary;
+          color: $blue;
         }
         &:active,
         &:focus {
           color: $white;
         }
         &.active {
-          color: $primary;
+          color: $blue;
         }
       }
+    }
+
+    li.nav-item.with-border {
+      border: solid 0.05vw $blue;
+      border-radius: 0.5vw;
     }
   }
   .navbar-toggler {
@@ -44,7 +47,7 @@
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
       color: $white;
-      background: $primary;
+      background: transparent;
       &:active,
       &:focus,
       &:hover {

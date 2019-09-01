@@ -10727,20 +10727,16 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 700;
 }
 
-#mainNav .navbar-brand {
-  color: #fff;
-}
-
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #004484;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #004484;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -10748,7 +10744,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #004484;
+}
+
+#mainNav .navbar-nav li.nav-item.with-border {
+  border: solid 0.05vw #004484;
+  border-radius: 0.5vw;
 }
 
 #mainNav .navbar-toggler {
@@ -10773,7 +10774,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: transparent;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
@@ -10928,11 +10929,20 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
 }
 
+#sendMessageButton {
+  background-color: #004484;
+  color: white;
+}
+
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
-  color: #fff;
+  background-color: #004484;
+  color: white;
+}
+
+.footer a {
+  color: white;
 }
 
 .copyright {
@@ -11028,14 +11038,14 @@ form .row:first-child .floating-label-form-group {
 .top-page .method-section .method-bottom-left {
   background-image: url("/img/method_left.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: contain;
 }
 
 .top-page .method-section .method-bottom-right {
   background-image: url("/img/method_right.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-size: contain;
 }
 
@@ -11128,7 +11138,8 @@ form .row:first-child .floating-label-form-group {
 
 .top-page .special-point-section .text-area {
   padding: 2vw 0;
-  font-size: 2vw;
+  font-size: 1.5vw;
+  line-height: 3vw;
 }
 
 .top-page .special-point-section .button-area {
@@ -11136,8 +11147,8 @@ form .row:first-child .floating-label-form-group {
   color: #004484;
   font-size: 2.5vw;
   overflow: hidden;
-  -webkit-box-shadow: 0.5vw 0.5vw 0.5vw 0.5vw gray;
-  box-shadow: 0.5vw 0.5vw 0.5vw 0.5vw gray;
+  -webkit-box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
+  box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
 }
 
 .top-page .special-point-section .button-area .title {
@@ -11155,4 +11166,184 @@ form .row:first-child .floating-label-form-group {
   padding: 1vw 0;
   background-color: #FFDEE4;
   cursor: pointer;
+}
+
+.top-page .strength-section .page-section-heading {
+  padding-bottom: 2vw;
+}
+
+.top-page .strength-section .img-area {
+  min-height: 20vw;
+  background-image: url("/img/illust_02.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.top-page .strength-section .text-area {
+  padding: 2vw 0;
+  font-size: 1.5vw;
+  line-height: 3vw;
+}
+
+.top-page .strength-section .text-area p {
+  margin-bottom: 2vw;
+}
+
+.top-page .strength-section .button-area {
+  border-radius: 1.5vw;
+  border: 0.05vw solid #004484;
+  color: #004484;
+  font-size: 2.5vw;
+  overflow: hidden;
+  -webkit-box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
+  box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
+}
+
+.top-page .strength-section .button-area .title {
+  padding: 1vw 0;
+  background-color: white;
+}
+
+.top-page .introdution-section {
+  padding-top: 0;
+}
+
+.top-page .introdution-section .top-banner {
+  min-height: 35vw;
+  background-image: url("/img/intro_top.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.top-page .introdution-section .logo-area {
+  margin-top: 2vw;
+  min-height: 10vw;
+  background-image: url("/img/logo_mark_only.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.top-page .introdution-section .title-area {
+  margin-bottom: 1vw;
+  font-size: 2.5vw;
+  color: #004484;
+}
+
+.top-page .introdution-section .text-area {
+  font-size: 1.5vw;
+  line-height: 3vw;
+  margin-bottom: 2vw;
+}
+
+.top-page .introdution-section .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.top-page .introdution-section .video-container iframe, .top-page .introdution-section .video-container object, .top-page .introdution-section .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.top-page .yamada-section .img-area {
+  margin-top: -2vw;
+  margin-bottom: -3vw;
+  background-image: url("/img/yamada_guts.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.top-page .yamada-section .dialog-area {
+  background-image: url("/img/dialog.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  padding-left: 2.5vw;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+  color: #004484;
+}
+
+.top-page .yamada-section .title-area {
+  margin-top: 2vw;
+  padding-left: 2.5vw;
+  font-size: 0.7vw;
+}
+
+.top-page .detail-button-section .button-area button {
+  padding: 0.5vw 1.5vw;
+  border-radius: 1vw;
+  border: 0.05vw solid #004484;
+  color: #004484;
+  font-size: 2.0vw;
+  overflow: hidden;
+  -webkit-box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
+  box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
+  background-color: white;
+}
+
+.top-page .detail-button-section .button-area button ion-icon {
+  color: #E40000;
+  margin-right: 1vw;
+}
+
+.top-page .inquiry-section {
+  background-image: url("/img/flags.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+}
+
+.top-page .inquiry-section .img-area {
+  margin-bottom: -3vw;
+  background-image: url("/img/yamada_illust.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.top-page .inquiry-section .text-area {
+  font-size: 1.5vw;
+  line-height: 3vw;
+  color: #004484;
+}
+
+.top-page .inquiry-section .text-area .button-area {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.top-page .inquiry-section .text-area .button-area button {
+  padding: 0.5vw 1.5vw;
+  border-radius: 0.5vw;
+  border: 0.05vw solid #004484;
+  color: #004484;
+  font-size: 2.5vw;
+  overflow: hidden;
+  -webkit-box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
+  box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
+  background-color: white;
+}
+
+.top-page .inquiry-section .text-area .button-area button ion-icon {
+  color: #E40000;
+  margin-right: 1vw;
+}
+
+.top-page .socials a {
+  color: #004484;
+}
+
+.top-page .socials a i {
+  margin-right: 1vw;
 }

@@ -52,3 +52,8 @@
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid $gray-200;
 }
+
+#sendMessageButton {
+  background-color: $blue;
+  color: white;
+}

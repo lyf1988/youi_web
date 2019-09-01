@@ -1,6 +1,4 @@
-.top-page {
-    
-
+.top-page {   
     .top-section {
         height: 100%;
         min-height: 100%;
@@ -78,7 +76,7 @@
         .method-bottom-left {
             background-image: url("/img/method_left.png");
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: right;
             background-size: contain;
         }
 
@@ -86,7 +84,7 @@
         .method-bottom-right {
             background-image: url("/img/method_right.png");
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: left;
             background-size: contain;
         }
     }
@@ -183,8 +181,8 @@
 
         .text-area {
             padding: 2vw 0;
-            font-size: 2vw;
-
+            font-size: 1.5vw;
+            line-height: 3vw;
         }
 
         .button-area {            
@@ -192,7 +190,7 @@
             color: $blue;
             font-size: 2.5vw;          
             overflow: hidden;        
-            box-shadow: 0.5vw 0.5vw 0.5vw 0.5vw gray;      
+            box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;      
 
             .title {
                 padding: 1vw 0;
@@ -211,6 +209,199 @@
                 cursor: pointer;
             }
         }
+    }
+
+    .strength-section {
+        .page-section-heading {
+            padding-bottom: 2vw;
+        }
+
+        .img-area {
+            min-height: 20vw;
+            background-image: url("/img/illust_02.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .text-area {
+            padding: 2vw 0;
+            font-size: 1.5vw;
+            line-height: 3vw;
+
+            p {
+                margin-bottom: 2vw;
+            }
+
+        }
+
+        .button-area {            
+            border-radius: 1.5vw;            
+            border: 0.05vw solid $blue;
+            color: $blue;
+            font-size: 2.5vw;          
+            overflow: hidden;        
+            box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;      
+
+            .title {
+                padding: 1vw 0;
+                background-color: white;
+            }
+
+        }
+    }
+
+    .introdution-section {
+        padding-top: 0;
+
+        .top-banner {
+            min-height: 35vw;
+            background-image: url("/img/intro_top.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .logo-area {
+            margin-top: 2vw;
+            min-height: 10vw;
+            background-image: url("/img/logo_mark_only.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .title-area {
+            margin-bottom: 1vw;
+            font-size: 2.5vw;
+            color: $blue;
+        }
+
+        .text-area {
+            font-size: 1.5vw;
+            line-height: 3vw;
+            margin-bottom: 2vw;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px; height: 0; overflow: hidden;
+
+            iframe, object, embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }         
+
+    }
+
+    .yamada-section {
+        .img-area {
+            margin-top: -2vw;
+            margin-bottom: -3vw;
+            background-image: url("/img/yamada_guts.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+        }
+
+        .dialog-area {
+            background-image: url("/img/dialog.png");
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: contain;            
+
+            padding-left: 2.5vw;
+            font-size: 1.5vw;
+            line-height: 2.5vw;
+            color: $blue;
+        }
+
+        .title-area {
+            margin-top: 2vw;
+            padding-left: 2.5vw;
+            font-size: 0.7vw;
+        }
+    }
+
+    .detail-button-section {
+        .button-area {
+            button {                    
+                padding: 0.5vw 1.5vw;
+                border-radius: 1vw;            
+                border: 0.05vw solid $blue;
+                color: $blue;
+                font-size: 2.0vw;          
+                overflow: hidden;        
+                box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;     
+                background-color: white;
+
+                ion-icon {
+                    color: $red;
+                    margin-right: 1vw;
+                }
+            }
+            
+        }
+    }
+    
+    .inquiry-section {
+        background-image: url("/img/flags.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+
+        .img-area {
+            margin-bottom: -3vw;
+            background-image: url("/img/yamada_illust.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+        }
+
+        .text-area {
+            font-size: 1.5vw;
+            line-height: 3vw;
+            color: $blue;
+
+            .button-area {
+                margin-top: 2vw;
+                margin-bottom: 2vw;
+
+                button {                    
+                    padding: 0.5vw 1.5vw;
+                    border-radius: 0.5vw;            
+                    border: 0.05vw solid $blue;
+                    color: $blue;
+                    font-size: 2.5vw;          
+                    overflow: hidden;        
+                    box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;     
+                    background-color: white;
+
+                    ion-icon {
+                        color: $red;
+                        margin-right: 1vw;
+                    }
+                }
+                
+            }
+        }
+
+    }
+
+    .socials {
+        a {
+            color: $blue;
+
+            i {
+                margin-right: 1vw;
+            }
+        }
+        
     }
 
 }
