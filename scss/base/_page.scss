@@ -12,12 +12,18 @@
       font-size: 3.5vw;      
     }
   }
+
+  @include media-breakpoint-up(sm) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }  
 }
 
 .page-section.section-revert {
   background-color: #EBE8E5;
 }
-
 
 .align-center {
   display: flex;
@@ -47,5 +53,11 @@
   display: flex;
   align-items: start;
   justify-content: center;
+}
+
+.align-left-top {
+  display: flex;
+  align-items: start;
+  justify-content: start;
 }
 

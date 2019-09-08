@@ -2,8 +2,8 @@
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: $headings-font-family;
-  font-weight: $headings-font-weight;
+  font-family: $headings-font-family;  
+  background-color: white;
   
   .navbar-nav {
     margin-top: 1rem;
@@ -15,7 +15,7 @@
         }
         &:active,
         &:focus {
-          color: $white;
+          color: $blue;
         }
         &.active {
           color: $blue;
@@ -23,9 +23,13 @@
       }
     }
 
-    li.nav-item.with-border {
-      border: solid 0.05vw $blue;
-      border-radius: 0.5vw;
+    li.nav-item.with-border {      
+      
+      .nav-link {
+        border: solid 0.05vw $blue;
+        border-radius: 0.3vw;
+        padding: 0.2vw 0.7vw;
+      }
     }
   }
   .navbar-toggler {
@@ -38,7 +42,9 @@
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-    .navbar-brand {
+    .navbar-brand {     
+      margin-top: -25px;
+      margin-bottom: -25px; 
       font-size: 1.75em;
       transition: font-size 0.3s;
     }
@@ -46,19 +52,17 @@
       margin-top: 0;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: $white;
+      color: $blue;
       background: transparent;
       &:active,
       &:focus,
       &:hover {
-        color: $white;
-        background: $primary;
+        color: $blue;
+        background: white;
       }
     }
   }
-  #mainNav.navbar-shrink {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+  #mainNav.navbar-shrink {    
     .navbar-brand {
       font-size: 1.5em;
     }
