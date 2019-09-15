@@ -168,7 +168,7 @@ a {
 
 a:hover {
   color: #117964;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -235,8 +235,19 @@ label {
 }
 
 button {
-  border-radius: 0;
-}
+    background-color: #e60000; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
 
 button:focus {
   outline: 1px dotted;
@@ -10953,8 +10964,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   background-color: #004484;
   color: white;
 }
