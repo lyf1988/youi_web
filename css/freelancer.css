@@ -10584,6 +10584,57 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.inquiry-section {
+  background-image: url("../img/flags.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+}
+
+.inquiry-section .img-area {
+  margin-bottom: -3vw;
+  background-image: url("../img/yamada_illust.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.inquiry-section .text-area {
+  font-size: 1.5vw;
+  line-height: 3vw;
+  color: #004484;
+}
+
+.inquiry-section .text-area .button-area {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.inquiry-section .text-area .button-area button {
+  padding: 0.5vw 1.5vw;
+  border-radius: 0.5vw;
+  border: 0.05vw solid #004484;
+  color: #004484;
+  font-size: 2.5vw;
+  overflow: hidden;
+  -webkit-box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
+  box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
+  background-color: white;
+}
+
+.inquiry-section .text-area .button-area button ion-icon {
+  color: #E40000;
+  margin-right: 1vw;
+}
+
+.socials a {
+  color: #004484;
+}
+
+.socials a i {
+  margin-right: 1vw;
+}
+
 .page-section.section-revert {
   background-color: #EBE8E5;
 }
@@ -10600,6 +10651,18 @@ a.text-dark:hover, a.text-dark:focus {
   justify-content: center;
 }
 
+.align-left-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
 .align-left-middle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10607,6 +10670,18 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.align-left-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
@@ -10646,18 +10721,6 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-.align-left-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: start;
 }
 
 .divider-custom {
@@ -11318,53 +11381,347 @@ form .row:first-child .floating-label-form-group {
   margin-right: 1vw;
 }
 
-.top-page .inquiry-section {
-  background-image: url("../img/flags.png");
+.support-info-page .top-banner {
+  min-height: 35vw;
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: center;
+  background-size: contain;
+  font-size: 3.5vw;
+  color: white;
+}
+
+.support-info-page .text-area {
+  padding-top: 2vw;
+  font-size: 1.5vw;
+}
+
+.support-info-page .text-area .text-block {
+  padding-bottom: 3vw;
+}
+
+.support-info-page .text-area .text-block .title {
+  font-size: 2.5vw;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.support-info-page .text-area .text-block .title-area {
+  margin-bottom: 1vw;
+}
+
+.support-info-page .text-area .text-block .title-area .icon-area {
+  display: inline-block;
+  margin-right: 0.5vw;
+  width: 2vw;
+  height: 2vw;
+  background-image: url("../img/red_circle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
 }
 
-.top-page .inquiry-section .img-area {
-  margin-bottom: -3vw;
-  background-image: url("../img/yamada_illust.png");
+.support-info-page .text-area .text-block .content-area {
+  padding-left: 2.75vw;
+}
+
+.support-info-page .text-area .text-block .content-area .sub-content {
+  margin-top: 2vw;
+}
+
+.support-info-page .text-area .text-block .content-area .sub-content .title {
+  font-size: 2vw;
+}
+
+.support-info-page .text-area .text-block .content-area .sub-content .consult-process-graph {
+  background-image: url("../img/consult_process.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
+  background-size: contain;
+  min-height: 14vw;
+}
+
+.mission-page .top-section {
+  height: 100%;
+  min-height: 100%;
+}
+
+.mission-page .top-section .logo-container {
+  padding: 3vw 0;
+}
+
+.mission-page .top-section .logo-container .logo-area {
+  height: 20vw;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background-image: url("../img/logo_title.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
 }
 
-.top-page .inquiry-section .text-area {
+.mission-page .top-section .catchphrase {
+  padding-bottom: 2vw;
+  font-size: 2.5vw;
+  color: #004484;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.mission-page .content-area {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 576px) {
+  .mission-page .content-area {
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .mission-page .content-area {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .mission-page .content-area {
+    width: 50%;
+  }
+}
+
+.mission-page .page-section-heading {
+  padding-bottom: 2vw;
+}
+
+.mission-page .img-area img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.mission-page .text-area {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
   font-size: 1.5vw;
   line-height: 3vw;
-  color: #004484;
 }
 
-.top-page .inquiry-section .text-area .button-area {
-  margin-top: 2vw;
+.mission-page .text-area p {
   margin-bottom: 2vw;
 }
 
-.top-page .inquiry-section .text-area .button-area button {
+@media (max-width: 575.98px) {
+  .mission-page .text-area {
+    font-size: 2.5vw;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .mission-page .text-area {
+    font-size: 2.5vw;
+    line-height: 1.5;
+  }
+}
+
+.mission-page .one-point-lesson-section .title-area {
+  position: relative;
+  top: -4vw;
+  font-size: 3vw;
+  font-weight: bold;
+  text-align: center;
+  color: #004484;
+}
+
+@media (max-width: 1199.98px) {
+  .mission-page .one-point-lesson-section .title-area {
+    font-size: 2.5vw;
+    top: -5vw;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .mission-page .one-point-lesson-section .title-area {
+    top: -2vw;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .mission-page .one-point-lesson-section .title-area {
+    top: -3vw;
+  }
+}
+
+.mission-page .one-point-lesson-section .content-area {
+  padding-top: 15vw;
+  padding-bottom: 7vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-image: url("../img/illust_05.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.mission-page .one-point-lesson-section .link-area {
+  font-size: 2vw;
+  text-align: center;
+  color: #004484;
+  text-decoration: underline;
+}
+
+.about-page {
+  padding-top: 0;
+}
+
+.about-page .top-banner {
+  min-height: 35vw;
+  background-image: url("../img/intro_top.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.about-page .logo-area {
+  margin-top: 2vw;
+  min-height: 10vw;
+  background-image: url("../img/logo_mark_only.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-page .title-area {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-size: 2.5vw;
+  color: #004484;
+}
+
+.about-page .text-area {
+  font-size: 1.5vw;
+  line-height: 3vw;
+  margin-bottom: 2vw;
+}
+
+.about-page .award-container .award-img {
+  display: inline-block;
+  width: 49%;
+}
+
+.about-page .award-container .award-img img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about-page .award-container .award-content {
+  font-size: 1.2vw;
+  display: inline-block;
+  width: 49%;
+  padding-left: 1vw;
+}
+
+.about-page .award-container .award-content .award-name-english {
+  margin-top: 1vw;
+  padding-bottom: 1vw;
+  color: #004484;
+}
+
+@media (max-width: 767.98px) {
+  .about-page .award-container .award-content {
+    font-size: 2vw;
+  }
+  .about-page .award-container .award-name-english {
+    padding-bottom: 2vw;
+  }
+}
+
+.about-page .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 3vw;
+  overflow: hidden;
+}
+
+.about-page .video-container iframe, .about-page .video-container object, .about-page .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-page .company-info {
+  margin-top: 3vw;
+  line-height: 2;
+}
+
+.about-page .company-info .ceo-info {
+  font-weight: bold;
+}
+
+.about-page .company-info .ceo-info span {
+  margin-top: 15px;
+}
+
+.about-page .company-info img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about-page .tresure-section {
+  padding-top: 0;
+}
+
+.about-page .tresure-section .top-banner {
+  min-height: 35vw;
+  background-image: url("../img/people_talking.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-page .tresure-section .logo-area {
+  margin-top: 2vw;
+  min-height: 10vw;
+  background-image: url("../img/logo_mark_only.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-page .tresure-section .title-area {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-size: 2.5vw;
+  color: #004484;
+}
+
+.about-page .tresure-section .text-area {
+  font-size: 1.5vw;
+  line-height: 3vw;
+  margin-bottom: 2vw;
+}
+
+.about-page .tresure-section .button-area button {
   padding: 0.5vw 1.5vw;
-  border-radius: 0.5vw;
+  border-radius: 1vw;
   border: 0.05vw solid #004484;
   color: #004484;
-  font-size: 2.5vw;
+  font-size: 2.0vw;
   overflow: hidden;
   -webkit-box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
   box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;
   background-color: white;
 }
 
-.top-page .inquiry-section .text-area .button-area button ion-icon {
+.about-page .tresure-section .button-area button ion-icon {
   color: #E40000;
-  margin-right: 1vw;
-}
-
-.top-page .socials a {
-  color: #004484;
-}
-
-.top-page .socials a i {
   margin-right: 1vw;
 }

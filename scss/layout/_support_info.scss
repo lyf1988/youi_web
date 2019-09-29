@@ -1,0 +1,61 @@
+.support-info-page {
+    .top-banner {
+        min-height: 35vw;        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        font-size: 3.5vw;
+        color: white;
+    }
+
+    .text-area {
+        padding-top: 2vw;                
+        font-size: 1.5vw;
+
+
+        .text-block {
+            padding-bottom: 3vw;
+            
+            .title {
+                font-size: 2.5vw;
+                font-weight: bold;
+                display: inline-block;                
+            }
+
+            .title-area {            
+                margin-bottom: 1vw;
+
+                .icon-area {
+                    display: inline-block;
+                    margin-right: 0.5vw;
+                    width: 2vw;
+                    height: 2vw;                    
+                    background-image: url("../img/red_circle.svg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                }
+            }    
+
+            .content-area {
+                padding-left: 2.75vw;                
+
+                .sub-content {
+                    margin-top: 2vw;
+
+                    .title {
+                        font-size: 2vw;
+                    }
+
+                    .consult-process-graph {
+                        background-image: url("../img/consult_process.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                        min-height: 14vw;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,135 @@
+.mission-page {
+    .top-section {
+        height: 100%;
+        min-height: 100%;
+      
+        .logo-container {
+            padding: 3vw 0;
+         
+
+            .logo-area {
+                height: 20vw;
+                flex-grow: 1;
+                background-image: url("../img/logo_title.svg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }           
+        }
+        
+        .catchphrase {
+            padding-bottom: 2vw;
+            font-size: 2.5vw;
+            color: $blue;
+            justify-content: center;
+        }
+    }
+      
+    .content-area {
+        width: 80%;        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @include media-breakpoint-up(sm) {
+        .content-area {
+            width: 70%;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        .content-area {
+            width: 60%;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .content-area {
+            width: 50%;
+        }
+    }
+
+    .page-section-heading {
+        padding-bottom: 2vw;
+    }
+
+    .img-area {
+        img {
+            object-fit: cover;
+            width: 100%;                
+        }            
+    }
+
+    .text-area {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        font-size: 1.5vw;
+        line-height: 3vw;
+
+        p {
+            margin-bottom: 2vw;
+        }
+    }
+
+    @include media-breakpoint-down(xs) { 
+        .text-area {
+            font-size: 2.5vw;
+            line-height: 1.5;
+        }
+    }
+    
+    @include media-breakpoint-down(sm) { 
+        .text-area {
+            font-size: 2.5vw;
+            line-height: 1.5;
+        }
+    }
+
+    .one-point-lesson-section {
+        .title-area {
+            position: relative;                        
+            top: -4vw;
+            font-size: 3vw;
+            font-weight: bold;
+            text-align: center;
+            color: $blue;
+        }
+
+        @include media-breakpoint-down(lg) { 
+            .title-area {
+                font-size: 2.5vw;                
+                top: -5vw;
+            }
+        }
+        
+        @include media-breakpoint-down(md) { 
+            .title-area {                
+                top: -2vw;
+            }
+        }
+        
+        @include media-breakpoint-down(sm) { 
+            .title-area {                
+                top: -3vw;
+            }
+        }
+
+        .content-area {
+            padding-top: 15vw;
+            padding-bottom: 7vw;
+            padding-left: 5vw;
+            padding-right: 5vw;
+            background-image: url("../img/illust_05.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+        }
+
+        .link-area {
+            font-size: 2vw;
+            text-align: center;
+            color: $blue;
+            text-decoration: underline;
+        }        
+    }
+}
