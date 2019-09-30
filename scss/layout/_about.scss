@@ -31,6 +31,13 @@
         margin-bottom: 2vw;
     }
 
+    @include media-breakpoint-down(xs) {
+        .text-area {
+            font-size: 2.5vw;
+            line-height: 2;
+        }
+    }
+
     .award-container {
         .award-img {
             display: inline-block;
@@ -151,8 +158,14 @@
                     color: $red;
                     margin-right: 1vw;
                 }
+            }            
+        }
+
+        @include media-breakpoint-down(xs) {
+            .text-area {
+                font-size: 2.5vw;
+                line-height: 1.5;
             }
-            
         }
     }
 }

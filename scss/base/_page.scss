@@ -64,19 +64,24 @@
   }
 }
 
-.socials {
-  a {
-      color: $blue;
+a {
+    color: $blue;
 
-      i {
-          margin-right: 1vw;
-      }
-  }
-  
+    i {
+        margin-right: 1vw;
+    }
 }
-
+ 
 .page-section.section-revert {
   background-color: #EBE8E5;
+}
+
+.color-red {
+  color: $red;
+}
+
+.color-blue {
+  color: $blue;
 }
 
 .align-center {

@@ -164,6 +164,16 @@
             font-size: 2vw;
             color: $blue;
         }
+
+        @include media-breakpoint-down(xs) {
+            .annotation-area {                
+                font-size: 2vw;
+            }
+
+            .additional-message-area {
+                font-size: 2.5vw;
+            }
+        }
     }
 
     .special-point-section {
@@ -210,6 +220,13 @@
                 cursor: pointer;
             }
         }
+
+        @include media-breakpoint-down(xs) {
+            .text-area {
+                font-size: 2.5vw;
+                line-height: 1.5;
+            }
+        }
     }
 
     .strength-section {
@@ -234,7 +251,6 @@
             p {
                 margin-bottom: 2vw;
             }
-
         }
 
         .button-area {            
@@ -249,7 +265,117 @@
                 padding: 1vw 0;
                 background-color: white;
             }
+        }
 
+        @include media-breakpoint-down(xs) {
+            .text-area {
+                font-size: 2.5vw;
+                line-height: 1.5;
+            }
+        }
+    }
+
+    .plan-section {
+        font-size: 1.8vw;
+        line-height: 2;
+
+        .page-section-heading {
+            padding-bottom: 2vw;            
+        }
+
+        .plan-area {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .plan-container {
+            height: 70vw;
+            margin-left: 5px;
+            margin-right: 5px;
+            border: 1px $blue solid; 
+            border-radius: 2vw;
+
+            .title-area {
+                height: 25%;
+                padding-top: 2vw;      
+                border-top-left-radius: 2vw;
+                border-top-right-radius: 2vw;                
+                margin-left: -15px;
+                margin-right: -15px;          
+                font-size: 2.2vw;
+                font-weight: bold;
+            }           
+            
+            .title-area.recommened-plan {
+                background-color: #FCE4E8;
+            }
+
+            .title-area.tel-support-plan {
+                background-color: #E2F3F8;
+            }
+
+            .title-area.light-plan {
+                background-color: #FAF9F4;
+            }
+
+            .visit-area {    
+                height: 35%;
+                padding-top: 2vw;      
+                font-size: 1.8vw;
+            }
+
+            .tel-support-area {
+                height: 40%;                
+                font-size: 1.8vw;
+            }
+
+            .icon-area {
+                margin-bottom: 1vw;
+
+                img {
+                    height: 40px;
+                    object-fit: contain;
+                }           
+            }
+        }
+
+        .extra-info {
+            margin-top: 2vw;    
+            padding-left: 2vw;
+            text-align: left;
+        }
+
+        @include media-breakpoint-down(xs) { 
+            .plan-container {
+                height: 120vw;
+                border-radius: 3vw;
+                margin-bottom: 3vw;
+
+                .title-area {
+                    height: 25%;
+                    padding-top: 2vw;      
+                    border-top-left-radius: 3vw;
+                    border-top-right-radius: 3vw;                
+                    margin-left: -15px;
+                    margin-right: -15px;          
+                    font-size: 3.5vw;
+                    font-weight: bold;
+                }         
+
+                .visit-area {
+                    font-size: 3vw;
+                }
+
+                .tel-support-area {
+                    font-size: 3vw;
+                }
+            }
+           
+            .extra-info {                
+                padding-left: 3vw;
+                text-align: left;
+                font-size: 3vw;
+            }
         }
     }
 
@@ -297,8 +423,14 @@
                 width: 100%;
                 height: 100%;
             }
-        }         
-
+        }  
+        
+        @include media-breakpoint-down(xs) { 
+            .text-area {
+                font-size: 2.5vw;
+                line-height: 1.5;
+            }
+        }
     }
 
     .yamada-section {
@@ -326,7 +458,7 @@
         .title-area {
             margin-top: 2vw;
             padding-left: 2.5vw;
-            font-size: 0.7vw;
+            font-size: 1.5vw;
         }
     }
 
