@@ -29,6 +29,10 @@
         }
         
         .catchphrase {
+            @include media-breakpoint-down(xs) {
+                font-size: 3.5vw;
+            }
+
             padding-bottom: 2vw;
             font-size: 2.5vw;
             color: $blue;
@@ -92,6 +96,10 @@
     .toppoints {
         color: $blue;
         font-size: 2.5vw;
+        @include media-breakpoint-down(xs) {
+            font-size: 3.5vw;
+        }
+
 
         .img-area {
             margin-top: -2vw;
@@ -110,15 +118,23 @@
                 border: none;
 
                 div {
-                    display: inline-block;
-                    margin-right: 0.5em;                    
+                    display: inline-block;                    
                 }
 
                 .icon-area {
+                    display: inline-block;
+                    margin-right: 0.5em;                    
                     width: 2vw;
                     height: 2vw;
-                    border: 0.2vw $red solid;                   
-                    border-radius: 100%;
+                    background-image: url("../img/red_circle.svg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+
+                    @include media-breakpoint-down(xs) {
+                        width: 3vw;
+                        height: 3vw;
+                    }
                 }
             }
         }
@@ -159,6 +175,7 @@
         }
 
         .additional-message-area {
+            
             padding-top: 3vw;
             padding-bottom: 3vw;
             font-size: 2vw;
@@ -167,11 +184,11 @@
 
         @include media-breakpoint-down(xs) {
             .annotation-area {                
-                font-size: 2vw;
+                font-size: 2.7vw;
             }
 
             .additional-message-area {
-                font-size: 2.5vw;
+                font-size: 3.5vw;
             }
         }
     }
@@ -196,7 +213,7 @@
             line-height: 3vw;
         }
 
-        .button-area {            
+        .button-area {  
             border-radius: 1.5vw;            
             color: $blue;
             font-size: 2.5vw;          
@@ -223,8 +240,24 @@
 
         @include media-breakpoint-down(xs) {
             .text-area {
-                font-size: 2.5vw;
-                line-height: 1.5;
+                font-size: 3.5vw;
+                line-height: 1.5;                
+            }
+
+            .button-area {
+                font-size: 4vw;
+
+                .title {
+                    padding: 2vw;
+                }
+
+                .button-left {
+                    padding: 2vw;
+                }
+
+                .button-right {
+                    padding: 2vw;
+                }
             }
         }
     }
@@ -269,8 +302,16 @@
 
         @include media-breakpoint-down(xs) {
             .text-area {
-                font-size: 2.5vw;
+                font-size: 3.5vw;
                 line-height: 1.5;
+            }
+
+            .button-area {
+                font-size: 3.9vw;
+                
+                .title {
+                    padding: 2vw;
+                }
             }
         }
     }
@@ -347,7 +388,7 @@
 
         @include media-breakpoint-down(xs) { 
             .plan-container {
-                height: 120vw;
+                height: 130vw;
                 border-radius: 3vw;
                 margin-bottom: 3vw;
 
@@ -358,23 +399,24 @@
                     border-top-right-radius: 3vw;                
                     margin-left: -15px;
                     margin-right: -15px;          
-                    font-size: 3.5vw;
+                    font-size: 4vw;
                     font-weight: bold;
                 }         
 
                 .visit-area {
-                    font-size: 3vw;
+                    font-size: 3.5vw;
                 }
 
                 .tel-support-area {
-                    font-size: 3vw;
+                    font-size: 3.5vw;
                 }
             }
            
-            .extra-info {                
+            .extra-info {       
+                margin-top: 0;         
                 padding-left: 3vw;
                 text-align: left;
-                font-size: 3vw;
+                font-size: 3.5vw;
             }
         }
     }
@@ -426,8 +468,14 @@
         }  
         
         @include media-breakpoint-down(xs) { 
+            .title-area {
+                font-size: 4vw;
+                margin-top: 1vw;
+                margin-bottom: 2vw;
+            }
+
             .text-area {
-                font-size: 2.5vw;
+                font-size: 3.5vw;
                 line-height: 1.5;
             }
         }
@@ -460,6 +508,20 @@
             padding-left: 2.5vw;
             font-size: 1.5vw;
         }
+
+        @include media-breakpoint-down(xs) { 
+            .dialog-area {
+                padding-left: 4vw;
+                padding-right: 2vw;                
+
+                font-size: 3.5vw;
+                line-height: 1.5;
+            }
+
+            .title-area {
+                font-size: 3.5vw;
+            }
+        }
     }
 
     .detail-button-section {
@@ -474,6 +536,10 @@
                 box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw gray;     
                 background-color: white;
 
+                @include media-breakpoint-down(xs) { 
+                    font-size: 4vw;
+                }
+
                 ion-icon {
                     color: $red;
                     margin-right: 1vw;
@@ -481,5 +547,6 @@
             }
             
         }
+
     } 
 }

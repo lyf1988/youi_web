@@ -10571,6 +10571,12 @@ a.text-dark:hover, a.text-dark:focus {
   color: #004484;
 }
 
+@media (max-width: 575.98px) {
+  .page-section .page-section-heading {
+    font-size: 5vw;
+  }
+}
+
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3.5vw;
@@ -10625,6 +10631,34 @@ a.text-dark:hover, a.text-dark:focus {
 .inquiry-section .text-area .button-area button ion-icon {
   color: #E40000;
   margin-right: 1vw;
+}
+
+@media (max-width: 575.98px) {
+  .inquiry-section {
+    background: none;
+  }
+  .inquiry-section .img-area {
+    margin-top: 5vw !important;
+    min-height: 55vw !important;
+    background-position: center;
+  }
+  .inquiry-section .text-area {
+    margin-top: 5vw !important;
+    font-size: 5vw !important;
+    line-height: 1.5 !important;
+  }
+  .inquiry-section .button-area button {
+    border-radius: 1vw !important;
+    font-size: 5vw !important;
+    padding: 2vw !important;
+  }
+  .inquiry-section .sp-flag-area {
+    min-height: 31vw !important;
+    background-image: url("../img/flags_sp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
 }
 
 a {
@@ -11086,6 +11120,12 @@ form .row:first-child .floating-label-form-group {
   justify-content: center;
 }
 
+@media (max-width: 575.98px) {
+  .top-page .top-section .catchphrase {
+    font-size: 3.5vw;
+  }
+}
+
 .top-page .method-section {
   padding-bottom: 0;
   color: #004484;
@@ -11143,6 +11183,12 @@ form .row:first-child .floating-label-form-group {
   font-size: 2.5vw;
 }
 
+@media (max-width: 575.98px) {
+  .top-page .toppoints {
+    font-size: 3.5vw;
+  }
+}
+
 .top-page .toppoints .img-area {
   margin-top: -2vw;
   margin-bottom: -2vw;
@@ -11165,14 +11211,24 @@ form .row:first-child .floating-label-form-group {
 
 .top-page .toppoints .list-group .list-group-item div {
   display: inline-block;
-  margin-right: 0.5em;
 }
 
 .top-page .toppoints .list-group .list-group-item .icon-area {
+  display: inline-block;
+  margin-right: 0.5em;
   width: 2vw;
   height: 2vw;
-  border: 0.2vw #E40000 solid;
-  border-radius: 100%;
+  background-image: url("../img/red_circle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media (max-width: 575.98px) {
+  .top-page .toppoints .list-group .list-group-item .icon-area {
+    width: 3vw;
+    height: 3vw;
+  }
 }
 
 .top-page .basic-flow .page-section-heading {
@@ -11216,10 +11272,10 @@ form .row:first-child .floating-label-form-group {
 
 @media (max-width: 575.98px) {
   .top-page .basic-flow .annotation-area {
-    font-size: 2vw;
+    font-size: 2.7vw;
   }
   .top-page .basic-flow .additional-message-area {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
 }
 
@@ -11270,8 +11326,20 @@ form .row:first-child .floating-label-form-group {
 
 @media (max-width: 575.98px) {
   .top-page .special-point-section .text-area {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     line-height: 1.5;
+  }
+  .top-page .special-point-section .button-area {
+    font-size: 4vw;
+  }
+  .top-page .special-point-section .button-area .title {
+    padding: 2vw;
+  }
+  .top-page .special-point-section .button-area .button-left {
+    padding: 2vw;
+  }
+  .top-page .special-point-section .button-area .button-right {
+    padding: 2vw;
   }
 }
 
@@ -11315,8 +11383,14 @@ form .row:first-child .floating-label-form-group {
 
 @media (max-width: 575.98px) {
   .top-page .strength-section .text-area {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     line-height: 1.5;
+  }
+  .top-page .strength-section .button-area {
+    font-size: 3.9vw;
+  }
+  .top-page .strength-section .button-area .title {
+    padding: 2vw;
   }
 }
 
@@ -11394,7 +11468,7 @@ form .row:first-child .floating-label-form-group {
 
 @media (max-width: 575.98px) {
   .top-page .plan-section .plan-container {
-    height: 120vw;
+    height: 130vw;
     border-radius: 3vw;
     margin-bottom: 3vw;
   }
@@ -11405,19 +11479,20 @@ form .row:first-child .floating-label-form-group {
     border-top-right-radius: 3vw;
     margin-left: -15px;
     margin-right: -15px;
-    font-size: 3.5vw;
+    font-size: 4vw;
     font-weight: bold;
   }
   .top-page .plan-section .plan-container .visit-area {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   .top-page .plan-section .plan-container .tel-support-area {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   .top-page .plan-section .extra-info {
+    margin-top: 0;
     padding-left: 3vw;
     text-align: left;
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
 }
 
@@ -11471,8 +11546,13 @@ form .row:first-child .floating-label-form-group {
 }
 
 @media (max-width: 575.98px) {
+  .top-page .introdution-section .title-area {
+    font-size: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+  }
   .top-page .introdution-section .text-area {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     line-height: 1.5;
   }
 }
@@ -11503,6 +11583,18 @@ form .row:first-child .floating-label-form-group {
   font-size: 1.5vw;
 }
 
+@media (max-width: 575.98px) {
+  .top-page .yamada-section .dialog-area {
+    padding-left: 4vw;
+    padding-right: 2vw;
+    font-size: 3.5vw;
+    line-height: 1.5;
+  }
+  .top-page .yamada-section .title-area {
+    font-size: 3.5vw;
+  }
+}
+
 .top-page .detail-button-section .button-area button {
   padding: 0.5vw 1.5vw;
   border-radius: 1vw;
@@ -11515,6 +11607,12 @@ form .row:first-child .floating-label-form-group {
   background-color: white;
 }
 
+@media (max-width: 575.98px) {
+  .top-page .detail-button-section .button-area button {
+    font-size: 4vw;
+  }
+}
+
 .top-page .detail-button-section .button-area button ion-icon {
   color: #E40000;
   margin-right: 1vw;
@@ -11525,7 +11623,7 @@ form .row:first-child .floating-label-form-group {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  font-size: 3.5vw;
+  font-size: 5vw;
   color: white;
 }
 
@@ -11572,11 +11670,28 @@ form .row:first-child .floating-label-form-group {
 }
 
 .support-info-page .text-area .text-block .content-area .sub-content .consult-process-graph {
+  margin-top: 2vw;
   background-image: url("../img/consult_process.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   min-height: 14vw;
+}
+
+@media (max-width: 575.98px) {
+  .support-info-page .text-area .text-block .title {
+    font-size: 4vw;
+  }
+  .support-info-page .text-area .text-block .title-area .icon-area {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+  .support-info-page .text-area .text-block .content-area {
+    font-size: 3.5vw;
+  }
+  .support-info-page .text-area .text-block .content-area .sub-content .title {
+    font-size: 3.5vw;
+  }
 }
 
 .mission-page .top-section {
@@ -11608,8 +11723,14 @@ form .row:first-child .floating-label-form-group {
   justify-content: center;
 }
 
+@media (max-width: 575.98px) {
+  .mission-page .top-section .catchphrase {
+    font-size: 3.5vw;
+  }
+}
+
 .mission-page .content-area {
-  width: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -11653,16 +11774,16 @@ form .row:first-child .floating-label-form-group {
   margin-bottom: 2vw;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .mission-page .text-area {
     font-size: 2.5vw;
     line-height: 1.5;
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
   .mission-page .text-area {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     line-height: 1.5;
   }
 }
@@ -11691,7 +11812,21 @@ form .row:first-child .floating-label-form-group {
 
 @media (max-width: 767.98px) {
   .mission-page .one-point-lesson-section .title-area {
+    font-size: 3vw;
     top: -3vw;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .mission-page .one-point-lesson-section .title-area {
+    font-size: 4.5vw;
+    top: 0;
+  }
+  .mission-page .one-point-lesson-section .text-area {
+    padding-top: 6vw;
+  }
+  .mission-page .one-point-lesson-section .link-area {
+    font-size: 4vw !important;
   }
 }
 
@@ -11748,9 +11883,12 @@ form .row:first-child .floating-label-form-group {
 }
 
 @media (max-width: 575.98px) {
+  .about-page .title-area {
+    font-size: 4.5vw;
+  }
   .about-page .text-area {
-    font-size: 2.5vw;
-    line-height: 2;
+    font-size: 3.5vw;
+    line-height: 1.5;
   }
 }
 
@@ -11787,6 +11925,16 @@ form .row:first-child .floating-label-form-group {
   }
 }
 
+@media (max-width: 575.98px) {
+  .about-page .award-container .award-content {
+    font-size: 3.5vw;
+  }
+  .about-page .award-container .award-name-english {
+    font-size: 2.5vw;
+    padding-bottom: 2vw;
+  }
+}
+
 .about-page .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -11809,6 +11957,7 @@ form .row:first-child .floating-label-form-group {
 
 .about-page .company-info .ceo-info {
   font-weight: bold;
+  margin-bottom: 2vw;
 }
 
 .about-page .company-info .ceo-info span {
@@ -11819,6 +11968,13 @@ form .row:first-child .floating-label-form-group {
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .about-page .company-info {
+    font-size: 3.5vw;
+    line-height: 1.5;
+  }
 }
 
 .about-page .tresure-section {
@@ -11874,7 +12030,10 @@ form .row:first-child .floating-label-form-group {
 
 @media (max-width: 575.98px) {
   .about-page .tresure-section .text-area {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     line-height: 1.5;
+  }
+  .about-page .tresure-section .button-area button {
+    font-size: 4vw;
   }
 }

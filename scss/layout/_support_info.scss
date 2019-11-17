@@ -4,14 +4,13 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        font-size: 3.5vw;
+        font-size: 5vw;
         color: white;
     }
 
     .text-area {
         padding-top: 2vw;                
         font-size: 1.5vw;
-
 
         .text-block {
             padding-bottom: 3vw;
@@ -48,11 +47,35 @@
                     }
 
                     .consult-process-graph {
+                        margin-top: 2vw;
                         background-image: url("../img/consult_process.png");
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: contain;
                         min-height: 14vw;
+                    }
+                }
+            }
+
+            @include media-breakpoint-down(xs) { 
+                .title {
+                    font-size: 4vw;
+                }
+
+                .title-area {
+                    .icon-area {
+                        width: 3.5vw;
+                        height: 3.5vw;;
+                    }
+                }
+
+                .content-area {
+                    font-size: 3.5vw;
+
+                    .sub-content {
+                        .title {
+                            font-size: 3.5vw;
+                        }
                     }
                 }
             }
