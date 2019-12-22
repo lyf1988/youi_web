@@ -4,7 +4,7 @@
   border-bottom: 1px solid $gray-200;
   input,
   textarea {
-    font-size: 1.5em;
+    font-size: 2vw;
     position: relative;
     z-index: 1;
     padding-right: 0;
@@ -14,10 +14,15 @@
     border-radius: 0;
     background: none;
     box-shadow: none !important;
+
+    @include media-breakpoint-down(xs) {
+      font-size: 5vw;
+    }
   }
+  
   label {
-    font-size: 0.85em;
-    line-height: 1.764705882em;
+    font-size: 1vw;
+    line-height: 2vw;
     position: relative;
     z-index: 0;
     top: 2em;
@@ -30,6 +35,10 @@
     vertical-align: middle;
     vertical-align: baseline;
     opacity: 0;
+    
+    @include media-breakpoint-down(xs) {
+      font-size: 3vw;
+    }
   }
   &:not(:first-child) {
     padding-left: 14px;

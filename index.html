@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8">    
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -102,7 +102,7 @@
             <div class="col-12 text-center divider-area-line"></div>
             <div class="w-100"></div>
             <div class="col-10 offset-1 container-with-border">
-                特定技能ビザを使って日本で働きたい外国人
+                国内外にいる日本で働きたい外国人
             </div>
             <div class="w-100"></div>
             <div class="col-12 text-center divider-area-arrow"></div>
@@ -110,7 +110,11 @@
             <div class="row">
                 <div class="col-4 method-bottom-left"></div>
                 <div class="col-4 container-without-border">
-                    石川県在住外国人が<br />サポートします！
+                    <span>石川県在住外国人が</span>
+                    <br />
+                    <span>サポートします！</span>
+                    <br />
+                    <span class="color-red" style="font-size: 50%;">※技能実習生のサポートもできます</span>
                 </div>        
                 <div class="col-4 method-bottom-right"></div>
             </div>
@@ -403,7 +407,12 @@
             <div class="video-container offset-1 col-10">
                 <div class="jetpack-video-wrapper">
                     <span class="embed-youtube" style="text-align:center; display: block;">
-                        <iframe class="youtube-player" type="text/html" src="https://www.youtube.com/embed/uRzEhLm3-hc?version=3&rel=1&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent" allowfullscreen="true"></iframe>
+                        <iframe 
+                        class="youtube-player" 
+                        type="text/html" 
+                        src="https://www.youtube.com/embed/3mngnWQyVTc?version=3&rel=1&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent&autoplay=1" 
+                        allowfullscreen="true"
+                    ></iframe>
                     </span>
                 </div>
             </div>
@@ -473,7 +482,7 @@
         <div class="container">
 
             <!-- Contact Section Heading -->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <h2 class="page-section-heading text-center text-uppercase mb-0">お問い合わせ</h2>
 
             <!-- Icon Divider -->
             <div class="divider-custom">
@@ -491,36 +500,36 @@
                     <form name="sentMessage" id="contactForm" novalidate="novalidate">
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Name</label>
-                                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                                <label>名前</label>
+                                <input class="form-control" id="name" type="text" placeholder="名前" required="required" data-validation-required-message="お名前を入力してください。">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Email Address</label>
-                                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                                <label>メールアドレス</label>
+                                <input class="form-control" id="email" type="email" placeholder="メールアドレス" required="required" data-validation-required-message="返信を受け取るメールアドレスを入力してください。">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Phone Number</label>
-                                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                                <label>電話番号</label>
+                                <input class="form-control" id="phone" type="tel" placeholder="電話番号" required="required" data-validation-required-message="お電話番号を入力してください。">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Message</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <label>お問い合わせ内容</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="お問い合わせ内容" required="required" data-validation-required-message="お問い合わせの内容を入力してください。"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <br>
                         <div id="success"></div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-xl" id="sendMessageButton">Send</button>
+                            <button type="submit" class="btn btn-primary" id="sendMessageButton">送信</button>
                         </div>
                     </form>
                 </div>

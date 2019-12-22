@@ -5,13 +5,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
   .divider-custom-line {
     width: 100%;
-    max-width: 7rem;
-    height: 0.25rem;
-    background-color: $secondary;
+    max-width: 30vw;
+    height: 0.5vw;
+    background-color: $blue;
     border-radius: 1rem;
-    border-color: $secondary !important;
+    border-color: $blue !important;
+    
     &:first-child {
       margin-right: 1rem;
     }
@@ -19,14 +21,17 @@
       margin-left: 1rem;
     }
   }
+  
   .divider-custom-icon {
-    color: $secondary !important;
-    font-size: 2rem;
+    color: $blue !important;
+    font-size: 3.5vw;
   }
+  
   &.divider-light {
     .divider-custom-line {
       background-color: $white;
     }
+   
     .divider-custom-icon {
       color: $white !important;
     }
