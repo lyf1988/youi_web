@@ -12,8 +12,8 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 
 // Create the email and send the message
 $to = "info@you-i.jp"; // Add your email address inbetween the "" replacing yourname@yourdomain.com - This is where the form will send a message to.
-$subject = "YOU-I JAPANのお問い合わせ";
-$body = "名前: $name\n\nメール: $email\n\n電話: $phone\n\nメッセージ内容:\n$message";
+$subject = "YOU-I JAPANお問い合わせ";
+$body = "お名前: $name\n\nメッセージ内容:\n$message\n\n電話番号: $phone\n\nメールアドレス: $email";
 $header = "From: noreply@work-support.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $header .= "Reply-To: $email";
 
