@@ -11177,14 +11177,14 @@ form .row:first-child .floating-label-form-group {
 }
 
 .top-page .method-section .method-bottom-left {
-  background-image: url("../img/method_left.png");
+  background-image: url("../img/method_left.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
 }
 
 .top-page .method-section .method-bottom-right {
-  background-image: url("../img/method_right.png");
+  background-image: url("../img/method_right.jpg");
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
@@ -11361,7 +11361,7 @@ form .row:first-child .floating-label-form-group {
 
 .top-page .strength-section .img-area {
   min-height: 20vw;
-  background-image: url("../img/illust_02.png");
+  background-image: url("../img/illust_02.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
