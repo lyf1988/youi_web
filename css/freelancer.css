@@ -12051,3 +12051,8 @@ form .row:first-child .floating-label-form-group {
     font-size: 4vw;
   }
 }
+
+.flow-arrow {
+  color: #004484;
+  font-size: 2em;
+}
