@@ -11070,8 +11070,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
   background-color: #004484;
   color: white;
 }
@@ -11683,12 +11683,12 @@ form .row:first-child .floating-label-form-group {
 }
 
 .support-info-page .text-area .text-block .content-area .sub-content .consult-process-graph {
-  margin-top: 2vw;
+  margin-top: 1vw;
   background-image: url("../img/consult_process.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  min-height: 14vw;
+  min-height: 20vw;
 }
 
 @media (max-width: 575.98px) {
