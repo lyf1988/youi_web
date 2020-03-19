@@ -2,4 +2,4 @@ node_modules
 .vs
 js/**/*.js
 css/**/*.css
-.DS_Store
+.DS_Storeworker-support.code-workspace
