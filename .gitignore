@@ -1,4 +1,6 @@
 node_modules
 .vs
 js/**/*.js
-css/**/*.cssworker-support.code-workspace
+css/**/*.css
+.DS_Store
+worker-support.code-workspace
